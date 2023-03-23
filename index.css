@@ -71,8 +71,8 @@ body {
 .container {
   padding-inline: 2em;
   margin-inline: auto;
-  max-width: 80rem;
-  margin-top: 12em;
+  max-width: 100rem;
+  margin-top: 2em;
 }
 
 .heading {
@@ -214,4 +214,26 @@ body {
 .underline-indicators > [aria-selected="true"] {
   color: hsl(var(--clr-white) / 1);
   border-color: hsl(var(--clr-white) / 1);
+}
+
+.Dashboard-heading {
+    padding-left: 0.5em;
+}
+
+.dbsec {
+    /* align-content: center; */
+    padding-inline: 10%;
+}
+.dbcnt {
+    margin-inline: 5.5rem;
+    /* border: solid; */
+    border-radius: 10%;
+    margin-inline: 10%;
+    margin-top: 2em;
+    /* max-width:max-content; */
+
+}
+.dbhead {
+    max-width:max-content;
+    
 }
