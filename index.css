@@ -48,8 +48,8 @@ p {
 
 /* Body Set Up */
 body {
-  background-color: hsl(var(--clr-dark));
-  color: hsl(var(--clr-white));
+  /* background-color: hsl(var(--clr-dark)); */
+  /* color: hsl(var(--clr-white)); */
 }
 
 /* ------------------- */
@@ -202,18 +202,18 @@ body {
   cursor: pointer;
   padding: var(--underline-gap, 1rem) 0;
   border: 0;
-  border-bottom: 0.2rem solid hsl(var(--clr-white) / 0);
+  border-bottom: 0.2rem solid hsl(var(--clr-dark) / 0);
 }
 
 .underline-indicators > *:hover,
 .underline-indicators > *:focus {
-  border-color: hsl(var(--clr-white) / 0.5);
+  border-color: hsl(var(--clr-dark) / 0.5);
 }
 
 .underline-indicators > .active,
 .underline-indicators > [aria-selected="true"] {
-  color: hsl(var(--clr-white) / 1);
-  border-color: hsl(var(--clr-white) / 1);
+  color: hsl(var(--clr-dark) / 1);
+  border-color: hsl(var(--clr-dark) / 1);
 }
 
 .Dashboard-heading {
@@ -225,13 +225,13 @@ body {
     padding-inline: 10%;
 }
 .dbcnt {
-    margin-inline: 5.5rem;
+    margin-inline: 1rem;
     /* border: solid; */
     border-radius: 10%;
-    margin-inline: 10%;
+    /* margin-inline: 10%; */
     margin-top: 2em;
     /* max-width:max-content; */
-
+    max-width: 600px;
 }
 .dbhead {
     max-width:max-content;

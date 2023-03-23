@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -13,64 +14,43 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&family=Bellefair&family=Barlow:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body class="">
+        href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&family=Bellefair&family=Barlow:wght@400;700&display=swap"
+        rel="stylesheet" />
+</head>
+
+<body class="">
     <header class="flex alg">
-      <div>
-        <img src="/images/logo.png" class="logo" alt="logo" />
-      </div>
-      <p class="heading uppercase">YouTube Management System</p>
-      <div>
-        <img src="/images/usrphoto.png" class="userimage" alt="" srcset="" />
-      </div>
+        <div>
+            <img src="/images/logo.png" class="logo" alt="logo" />
+        </div>
+        <p class="heading uppercase">YouTube Management System</p>
+        <div>
+            <img src="/images/usrphoto.png" class="userimage" alt="" srcset="" />
+        </div>
     </header>
     <hr />
     <!-- Navigation Bar -->
     <nav>
-      <ul
-        class="primary-navigation underline-indicators flex"
-        style="padding-inline: 300px"
-      >
-        <li class="active">
-          <a class="uppercase text-white letter-spacing-2" href="index.html"
-            >Home</a
-          >
-        </li>
-        <li>
-          <a
-            class="uppercase text-white letter-spacing-2"
-            href="destination.html"
-            >Content</a
-          >
-        </li>
-        <li>
-          <a class="uppercase text-white letter-spacing-2" href="crew.html"
-            >Analytics</a
-          >
-        </li>
-        <li>
-          <a
-            class="uppercase text-white letter-spacing-2"
-            href="technology.html"
-            >Comments</a
-          >
-        </li>
-        <li>
-          <a
-            class="uppercase text-white letter-spacing-2"
-            href="destination.html"
-            >Revenue</a
-          >
-        </li>
-        <li>
-          <a class="uppercase text-white letter-spacing-2" href="crew.html"
-            >Giveaway</a
-          >
-        </li>
-      </ul>
+        <ul class="primary-navigation underline-indicators flex" style="padding-inline: 300px">
+            <li class="active">
+                <a class="uppercase text-dark letter-spacing-2" href="index.html">Home</a>
+            </li>
+            <li>
+                <a class="uppercase text-dark letter-spacing-2" href="destination.html">Content</a>
+            </li>
+            <li>
+                <a class="uppercase text-dark letter-spacing-2" href="crew.html">Analytics</a>
+            </li>
+            <li>
+                <a class="uppercase text-dark letter-spacing-2" href="technology.html">Comments</a>
+            </li>
+            <li>
+                <a class="uppercase text-dark letter-spacing-2" href="destination.html">Revenue</a>
+            </li>
+            <li>
+                <a class="uppercase text-dark letter-spacing-2" href="crew.html">Giveaway</a>
+            </li>
+        </ul>
     </nav>
 
     <!-- Main Content -->
@@ -79,7 +59,7 @@
         <p class="Dashboard-heading fs-500 ff-sans-normal">Channel Dashboard</p>
         <div class="flex dbsec">
             <div class="dbcnt">
-                <p class="ff-sans-cond fs-400 dbhead">Latest Video Performance</p>
+                <p class="ff-sans-cond fs-500 dbhead" style="margin-bottom:10px">Latest Video Performance</p>
                 <img src="/images/Day.png" width="400rem" alt="">
                 <p>Tour & Travel Story</p>
                 <ul style="list-style-type: none;">
@@ -107,22 +87,72 @@
                 </ul>
             </div>
             <div class="dbcnt">
-                <p class="ff-sans-cond fs-400 dbhead">Channel Analytics</p>
+                <p class="ff-sans-cond fs-500 dbhead" style="margin-bottom:10px">Channel Analytics</p>
                 <div>
                     <p>Current Subscribers</p>
                     <p>10M</p>
                     <p>+150k in last 28 days</p>
                     <hr>
                 </div>
-    
+                <!-- <div class="flex">
+                    <li>Average view duration</li>
+                    <p style="padding-left: 8.25em;">15:40</p>
+                </div> -->
+                <div>
+                    <p>Summary</p>
+                    <p>last 28 days</p>
+                    <div class="flex">
+
+                        <p>Views</p>
+                        <p style="padding-left: 11em;">415k</p>
+
+                    </div>
+                    <div class="flex">
+
+                        <p>Watch time (hours)</p>
+                        <p style="padding-left: 5em;">2542.8</p>
+
+                    </div>
+
+                    <hr>
+                </div>
+                <div>
+                    <p>Top Videos</p>
+                    <p>last 48 hours . views</p>
+                    <div class="flex">
+
+                        <p style="max-width:fit-content;">Brand New ..</p>
+                        <p style="padding-left: 11em;">15M</p>
+
+                    </div>
+                    <div class="flex">
+
+                        <p style="max-width:fit-content;">Fashion co ..</p>
+                        <p style="padding-left: 11em;">12.5M</p>
+
+                    </div>
+                    <div class="flex">
+
+                        <p style="max-width:fit-content;">Best Mobile ..</p>
+                        <p style="padding-left: 11em;">8.3M</p>
+
+                    </div>
+                    <a href="analytics.html">Go to Video Analytics</a>
+                </div>
+
             </div>
             <div class="dbcnt">
-                <p class="ff-sans-cond fs-400 dbhead">Creators Inside</p>
-    
+                <p class="ff-sans-cond fs-500 dbhead" style="margin-bottom:10px">Creators Inside</p>
+                <div>
+                    <img src=" https://www.gstatic.com/youtube/img/promos/growth/9f52cc4639ef94e395d1ac1f7075d43d23184a191b327c2adf3c2a1be890e055_1280x720.jpeg" style="height: 13rem;" alt="">
+                    <p>This Week at YouTube</p>
+                    <p>Hello Insiders! Today we're here to talk about newly launched metrics, an easy way to share an audio Shorts pivot page, and frequently asked questions from our Advertiser Friendly Guidelines Profanity update</p>
+                </div>
             </div>
         </div>
-        
+
     </div>
 
-  </body>
+</body>
+
 </html>
