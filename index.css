@@ -47,10 +47,10 @@ p {
 }
 
 /* Body Set Up */
-body {
+/* body { */
   /* background-color: hsl(var(--clr-dark)); */
   /* color: hsl(var(--clr-white)); */
-}
+/* } */
 
 /* ------------------- */
 /* Utility classes     */
@@ -236,4 +236,8 @@ body {
 .dbhead {
     max-width:max-content;
     
+}
+
+.ptag {
+    font-weight: 600;
 }
