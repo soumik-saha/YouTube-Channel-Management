@@ -49,5 +49,21 @@ p {
 
 /* Body Set Up */
 body {
-    background-color: var(--clr-dark);
+    background-color: hsl(var(--clr-dark));
 }
+
+/* ------------------- */
+/* Utility classes     */
+/* ------------------- */
+
+/* general */
+
+.flex {
+    display: flex;
+    gap: var(--gap, 1rem);
+  }
+  
+  .grid {
+    display: grid;
+    gap: var(--gap, 1rem);
+  }
